@@ -133,7 +133,7 @@ function App() {
       <section id="contact-me">
         <div className="container">
           <h3>Email | Contact Me</h3>
-          <form action="mailto:albaze7iraq307v@gmail.com" method="post">
+          <form action="#" method="post">
             <input type="text" className="text" placeholder="Name" />
             <input type="email" placeholder="Email" />
             <textarea>Write Message</textarea>

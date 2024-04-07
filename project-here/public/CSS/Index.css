@@ -1,3 +1,10 @@
+:root{
+    --white_color: white;
+    --orange_color: #FF6D28;
+}
+a{
+    
+}
 body{
     margin: 0;
     padding: 0;
@@ -17,7 +24,7 @@ body{
     float: left;
     margin-top: 0;
     font-family:  'Arizonia', cursive;
-    color: white;
+    color: var(--white_color);
     font-weight: 900;
     font-size: 35px;
     padding: 5px;
@@ -28,9 +35,7 @@ body{
     color: #E84545;
 }
 .nav ul{
-    float: right;
-    background: none;
-    list-style-type: none;
+    float: right; 
     margin: 5px;
     margin-right: 15px;
 }
@@ -40,12 +45,11 @@ body{
     font-weight: 900;
     padding: 5px;
     margin: 5px;
-    background: none;
-    margin-right: 18px;
-    color: white;transition: all 0.6s;cursor: pointer;
+    margin-right: 28px;
+    transition: all 0.6s;cursor: pointer;
 }
 .nav ul li a{
-    text-decoration: none;color: white;
+    color: var(--white_color);
 }
 .nav ul li:hover{
     background:#faf7f044;
@@ -54,11 +58,10 @@ body{
     padding: 4% 12%;
 }
 .interface-title{
-    background: none;
     width: 75%;
     margin: 0 auto;
     padding: 3px 45px 3px 45px;
-    border-left: 3px solid #FF6D28;
+    border-left: 3px solid var(--orange_color);
 }
 .interface-title h1{
     color: #082032;
@@ -66,21 +69,9 @@ body{
     font-size: 70px;
     font-weight: 900;
     font-family: 'Arizonia', cursive;
-    background: none;
-    border-left: 3px solid #FF6D28;
-    border-bottom-right-radius: 6px;
-}
-.Un{
-    background: none;
-    width: 100%;
-    position: absolute;
-    right: -430px;
-    transform: skew(-25deg, -25deg);
-    top: -13%;
-    z-index: 0;
+    border-left: 3px solid var(--orange_color);
 }
 .interface-title_bottom{
-    background: none;
     width: 66%;
     margin: 0 auto;
     margin-top: 10px;
@@ -88,7 +79,6 @@ body{
     padding-bottom: 15px;
 }
 .title-description{
-    background: none;
     font-size: 20px;
     font-weight: 900;
     padding: 5px;
@@ -100,7 +90,7 @@ body{
     padding: 12px 18px;
     font-weight: 900;
     margin-right: 10px;
-    color: white;transition: all 0.6s;cursor: pointer;
+    color: var(--white_color);transition: all 0.6s;cursor: pointer;
 }
 .span1{
     display: inline-block;
@@ -110,56 +100,52 @@ body{
     color: #04293A;
 }
 .Skills a{
-    text-decoration: none;color: white;
+    color: var(--white_color);
 }
 .Hire_Him a{
-    text-decoration: none;color: white;
+    color: var(--white_color);
 }
 .Hire_Him{
     display: inline-block;
     background: #04293A;
     padding: 12px 18px;
     font-weight: 900;
-    color: white;transition: all 0.6s;cursor: pointer;
+    color: var(--white_color);transition: all 0.6s;cursor: pointer;
 }
 .btn:hover{
     background: #399e02;
 }
 #Biography-Middle{
-    background: white;
+    background: var(--white_color);
 }
 .biography-middle_container{
     padding: 4% 5%;
 }
 .contr-1{
-    background: none;
     width: 100%;
     height: 400px;
 }
 .the-hand{
     width: 24%;
     height: 500px;
-    background: none;
     float: right;
     position: relative;
     top: -155px;
     margin-left: 70px;
-    border-bottom: 3px solid #FF6D28;
+    border-bottom: 3px solid var(--orange_color);
 }
 .biography-1{
-    background: none;
     float: right;
     width: 60%;
     text-align: right;
 }
 .biography-1 h3{
-    font-size: 28px;color: #FF6D28;
-    background: none;
+    font-size: 28px;color: var(--orange_color);
     padding: 8px;
     font-weight: 900;margin: 0;letter-spacing: 2px;
 }
 .biography-1 p{
-    background: none;color: #1B1A17;
+    color: #1B1A17;
     margin: 0;
     padding: 5px;
     line-height: 1.3;
@@ -168,7 +154,6 @@ body{
     text-align: left;
 }
 .contr{
-    background: none;
     width: 100%;
     height: 400px;
 }
@@ -177,25 +162,23 @@ body{
     height: 300px;
     float: left;
     margin-left: 20px;
-    background: none;position: relative;
+    position: relative;
     padding-bottom: 20px;
     margin-top: 25px;
-    border-bottom: 3px solid #FF6D28;
+    border-bottom: 3px solid var(--orange_color);
 }
 .biography-2{
     width: 60%;
-    background: none;
     text-align: left;float: right;
     position: relative;top:-10px;
 }
 .biography-2 h3{
-    font-size: 28px;color: #FF6D28;
-    background: none;
+    font-size: 28px;color: var(--orange_color);
     padding: 8px;
     font-weight: 900;margin: 0;letter-spacing: 2px;
 }
 .biography-2 p{
-    background: none;color: #1B1A17;
+    color: #1B1A17;
     margin: 0;
     padding: 5px;
     line-height: 1.3;
@@ -203,27 +186,24 @@ body{
     font-weight: 800;
     text-align: left;
 }
-#skiils-part{
-    background:  none;
-}
+
 .skills-part_container{
     padding: 3% 5% 3% 5%;
-    background: none;text-align: center;
+    text-align: center;
 }
 .for_intelligent{
-    background: none;
+    
     width: 80%;
     height: 230px;
 }
 .skills-part_container h1{
-    background: none;color: #082032;
+    color: #082032;
     font-size: 40px;font-weight: 900;margin: 0;margin-bottom: 30px;margin-top: 20px;
 }
 .skills-boxs{
-    background: none;text-align: center;padding: 10px;
+    text-align: center;padding: 10px;
 }
 .box-s{
-    background: none;
     width: 200px;
     margin: 15px;display: inline-block;
 }
@@ -234,31 +214,31 @@ body{
     background: #3F3B6C;
     font-size: 23px;
     font-weight: 900;
-    color: white;
+    color: var(--white_color);
     padding: 5px;
 }
 .box-x{
-    background: none;width: 80%;margin: 0 auto;padding: 5px;
+    width: 80%;margin: 0 auto;padding: 5px;
 }
 .box-x p{
-    color: #1B1A17;font-size: 17px;font-weight: 900;background: none;padding: 5px;
+    color: #1B1A17;font-size: 17px;font-weight: 900;padding: 5px;
     display: inline-block;
     margin: 10px;width: 80%;line-height: 1.4;
 }
 .box-x img{
-    background: none;width: 55%;
+    width: 55%;
 }
 #fourd-part{
     background: #F4EEFF;
 }
 .fourd-part_end-container{
-    padding: 3% 25%;background: none;
+    padding: 3% 25%;
 }
 .fourd-part_end-container i{
     margin: 5px;margin-left: 5%;transition: all 0.6s;cursor: pointer;
 }
 .fourd-part_end-container a{
-    text-decoration: none;color: black;
+    color: black;
 }
 .fourd-part_end-container i:hover{
     color: #df0909;
@@ -267,20 +247,17 @@ body{
     font-weight: 900;
     font-size: 16px;color: #2C3333;
 }
-#contact-me{
-    background: none;
-}
 .container{
     padding: 3% 15%;
 }
 .container h3{
     margin: 0;
     font-size: 30px;
-    color: #FF6D28;
-    font-weight: 900;background: none;padding: 5px;margin: 5px;
+    color: var(--orange_color);
+    font-weight: 900;padding: 5px;margin: 5px;
 }
 .container form{
-    background: none;
+    
     width: 60%;padding: 10px;
     margin: 0 auto;height: 320px;text-align: center;
 }
@@ -304,7 +281,7 @@ input[type="email"]{
 }
 .container form button{
     background: #399e02;
-    padding: 7px 18px;border-radius: 5px; cursor: pointer; transition: all 0.6s; font-size: 15px;font-weight: 600;margin: 6px;color: white;border:2px solid #082032;
+    padding: 7px 18px;border-radius: 5px; cursor: pointer; transition: all 0.6s; font-size: 15px;font-weight: 600;margin: 6px;color: var(--white_color);border:2px solid #082032;
 }
 .container form button:hover{
     background: #E84545;
